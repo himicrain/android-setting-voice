@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView 
+        android:id="@+id/tvXM"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="@string/xiumian"/>
+    <SeekBar 
+        android:id="@+id/seekbar1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="100"
+        android:thumb="@drawable/my_bar" />
+    <TextView
+        android:id="@+id/pXM"  
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="@string/size"
+        />
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView 
+        android:id="@+id/tvLD"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="@string/liangdu"/>
+    <SeekBar 
+        android:id="@+id/seekbar2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="100"
+        android:thumb="@drawable/my_bar" />
+    <TextView
+        android:id="@+id/pLD"  
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="@string/size"
+        />
+</LinearLayout>
+<Button 
+    android:id="@+id/bn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Button"/> 
+
+
+</LinearLayout>
